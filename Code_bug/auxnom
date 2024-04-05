@@ -1,0 +1,5 @@
+
+CHARACTER(LEN=12),DIMENSION(nespmax)  :: nom_aux
+CHARACTER (LEN=240) :: chemical_mechanism
+
+COMMON /nomesp/ nom_aux, chemical_mechanism
